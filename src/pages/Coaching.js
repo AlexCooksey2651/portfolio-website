@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
 import coachingLogo from '../resources/images/cwc_logo.png'
+import alexKB from '../resources/images/AlexKB.png'
 
 const Coaching = () => {
   return (
@@ -28,7 +29,7 @@ const Coaching = () => {
       <Container id="coaching-services-section">
         <div id="coaching-services-header">
           <h2 id="coaching-services-header-h2">Services</h2>
-          <p><b>Please send all training inquiries to <a href="mailto:acooksey.hp@gmail.com?subject=Coaching With Cooksey Personal Training Inquiry">acooksey.hp@gmail.com</a>. Thank you!</b></p>
+          <p><b>Please send all training inquiries to <a href="mailto:acooksey.hp@gmail.com?subject=Coaching With Cooksey Personal Training Inquiry">acooksey.hp@gmail.com</a>.</b></p>
         </div>
 
         <Container id="coaching-service-cards">
@@ -78,6 +79,10 @@ const Coaching = () => {
       </Container>
 
       <hr />
+
+      <Container id="alexKB-image-container">
+        <img src={alexKB} alt="alex-turkish-get-up" id="alexKB-image"/>
+      </Container>
 
       <Container id="coaching-philosophy-section">
         <h2 id="coaching-philosophy-header">Coaching Philosophy</h2>

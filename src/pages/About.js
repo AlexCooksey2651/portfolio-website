@@ -1,26 +1,39 @@
 import React from 'react'
+import Container from 'react-bootstrap/Container'
+import profilePic from '../resources/images/alexcooksey_profilepic.jpg'
 
 const About = () => {
     return (
         <div className="about-page">
-            <div id="bio">
-                <h4>Welcome, everyone! My name is Alex Cooksey, I'm a full-stack software engineer.</h4>
+            <h5 id="about-page__header">Hi, my name is Alex Cooksey. Welcome to my page!</h5>
+            <Container id="about-page__bio">
                 
+                <div id="about-page__bio-text">
+
+                    <p>
+                        For nearly 10 years, I've relished the opportunity to help busy professionals improve their health and well-being as a personal trainer and nutrition coach. Wanting my career to positively touch the lives of (many!) more people, I made the decision last year to pivot into software engineering.
+                    </p>
+                    <p>
+                        In November 2021, I enrolled in the Flatiron School full-stack software engineering program. I appreciate that engineering feels less like a job and more like a set of tools that can be applied to solving complex and meaningful problems in innovative ways and at tremendous scale. Please head over to the <a href="/projects">Portfolio</a> page to check out some of the recent projects I've worked on!
+                    </p>
+                </div>
+                <Container id="profile-image-div">
+                    <img src={profilePic} alt="profile-picture" id="profile-image" />
+                </Container>
+            </Container>
+            <Container id="about-page__bio-text-pt2">
                 <p>
-                    For nearly 10 years, I've relished the opportunity to help busy professionals improve their health and well-being as a personal trainer and nutrition coach. Wanting my career to positively touch the lives of (many!) more people, I made the decision last year to pivot into software engineering.
+                    In my next role, I'd love to continue developing and implementing strategies that help people lead happier, healthier lives. I'm also deeply passionate about animal protection and, more broadly, sustainability. I can think of no better use of my skills than to find creative solutions that will ensure a better future for our planet and everyone on it.
                 </p>
+
                 <p>
-                    In November 2021, I enrolled in the Flatiron School full-stack software engineering program. I appreciate that engineering feels less like a job and more like a set of tools that can be applied to solving complex and meaningful problems in innovative ways and at tremendous scale. Please head over to the <a href="/projects">Portfolio</a> page to check out some of the recent projects I've worked on!
+                    I continue to operate a small, (mostly) remote personal training business, Coaching With Cooksey. If you'd like to work together or want to learn more, please visit the <a href="/coaching">Coaching</a> page. In my spare time, I enjoy working out, reading, cooking, playing piano, and spending time in nature.
                 </p>
-                    
-                <p>
-                    In my next role, I'd love to continue developing and implementing strategies that help people lead happier, healthier lives. I'm also deeply passionate about animal protection and, more broadly, sustainability. I can think of no better use of my skills than to find creative solutions that will ensure a better future for our planet and everyone on it. 
-                </p>
-                
-                <p>
-                    I continue to operate a small, remote personal training business, Coaching With Cooksey. If you'd like to work together or want to learn more, please visit the <a href="/coaching">Coaching</a> page, or simply message me at <a href="acooksey.hp@gmail.com">acooksey.hp@gmail.com</a>. In my spare time, I enjoy working out, reading, cooking, playing piano, and spending time in nature. 
-                </p>
-            </div>
+            </Container>
+
+
+
+
             <div id="fun-facts">
                 <h4>Fun Facts!</h4>
                 <ul>
@@ -35,7 +48,7 @@ const About = () => {
                     <li>Among the countless things I have to be grateful for in this life, none matters more than the love of my life, Jenny Liu. Besides being a total boss, she's as kind and authentic a person as you're likely to meet in this world. We live in Jersey City, NJ with our cat, Piglet (aka Babe/Booboo), and dog, Sadie. It hardly seems possible, but I think they like eating even more than we do.</li>
                 </ul>
             </div>
-        </div>
+        </div >
     )
 }
 

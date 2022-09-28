@@ -1,0 +1,25 @@
+.about-page {
+    margin: 50px 100px;
+}
+
+#about-page__header {
+    text-align: left;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+#about-page__bio {
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+}
+
+#profile-image-div {
+    margin-left: 30px;
+}
+
+#profile-image {
+    margin: auto;
+    width: 100%;
+}
