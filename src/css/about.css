@@ -22,4 +22,31 @@
 #profile-image {
     margin: auto;
     width: 100%;
+    border-radius: 2%;
+}
+
+#fun-facts__header {
+    text-align: right;
+    margin-right: 300px;
+}
+
+#fun-facts-pt1, 
+#fun-facts-pt2 {
+    display: inline-flex;
+    align-items: center;
+}
+
+#iceland-img {
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+#chongqing-noodle-img,
+#iceland-img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+#fun-facts-list-pt1 {
+    width: 100%
 }
