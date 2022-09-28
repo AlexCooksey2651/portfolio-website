@@ -1,0 +1,29 @@
+#portfolio-page {
+    margin: auto;
+    padding: 20px;
+}
+
+#technical-projects-header {
+    font-size: 2em;
+    font-weight: 750;
+    text-align: center;
+}
+
+#technical-skills {
+    margin: auto;
+    text-align: center;
+}
+
+.project-card {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.project-card iframe {
+    margin-bottom: 10px;
+    height: 300px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

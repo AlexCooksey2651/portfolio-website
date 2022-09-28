@@ -24,6 +24,7 @@ code {
   height: 3.5rem;
   background-color: rgb(71, 52, 193);
   padding: 0 1.5rem;
+  /* display: inline-flexbox; */
 }
 
 .main-header__item-list {
@@ -42,11 +43,12 @@ code {
 .main-header__item {
   margin: 0 1rem;
   padding: 0;
+  color: black;;
 }
 
 .main-header__item a {
   text-decoration: none;
-  color: cyan;
+  color: white;
 }
 
 .main-header__item a:hover,
@@ -55,7 +57,14 @@ code {
   color: lightslategray;
 }
 
+.main-footer {
+  margin: auto;
+  display: flex;
+
+}
+
 .main-footer a {
+  margin: auto;
   height: 100%;
   display: inline-flex;
   text-align: center;
@@ -66,6 +75,5 @@ code {
   margin: 100px;
 }
 
-#coaching-page-bio {
-  font-size: .8rem;
-}
+
+

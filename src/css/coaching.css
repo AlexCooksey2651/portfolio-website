@@ -1,0 +1,58 @@
+#coaching-page {
+    margin: auto;
+    padding: 20px 0;
+}
+
+#coaching-page-bio {
+    font-size: .8rem;
+}
+
+#coaching-services-header,
+#coaching-philosophy-header,
+.coaching-philosophy-section-header {
+    text-align: center;
+}
+
+#coaching-services-header {
+    line-height: 0.5
+}
+
+#coaching-services-header-h2,
+#coaching-philosophy-header {
+    font-size: 2em;
+    font-weight: 750;
+}
+
+.coaching-philosophy-section-header {
+    font-size: 1.5em;
+}
+
+#coaching-services-section {
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#coaching-service-cards {
+    display: inline-flex;
+    width: 100%;
+}
+
+.coaching-service-card {
+    width: 33%;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.coaching-service-pricing {
+    text-align: left;
+}
+
+#coaching-services-section,
+#coaching-philosophy-section {
+    border: 1px solid black;
+    border-radius: 2%;
+    padding: 10px;
+}
