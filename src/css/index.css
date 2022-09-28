@@ -45,12 +45,6 @@ code {
   color: white !important;
 }
 
-.main-header__nav-link:hover,
-.main-header__nav-link:active, 
-.main-header__nav-link:active {
-  color: mediumaquamarine;
-}
-
 
 .main-footer {
   margin: auto;

@@ -1,23 +1,29 @@
 import React from 'react';
 import { Container, Card } from 'react-bootstrap';
+import coachingLogo from '../resources/images/cwc_logo.png'
 
 const Coaching = () => {
   return (
     <Container id="coaching-page">
-      <div>
-        <img src="coaching-image" alt="coaching with cooksey logo" />
-        <h1>Coaching With Cooksey</h1>
-        <h5>NSCA-CPT, StrongFirst Elite Instructor, Precision Nutrition Level 2 Certified Nutrition Coach</h5>
+      <div id="coaching-page__bio">
+        <img src={coachingLogo} alt="coaching with cooksey logo" id="cwc-logo" />
+        <div id="coaching-page__bio-header">
+          <h1>Coaching With Cooksey</h1>
+          <h6>NSCA-CPT, StrongFirst Elite Instructor, Precision Nutrition Level 2 Certified Nutrition Coach</h6>
+        </div>
       </div>
-      <div id="coaching-page-bio">
-        <p>Interested in working together to improve your fitness and well-being? You've come to the right place!</p>
+      <Container>
+        <div id="coaching-page__bio-text">
+          <p>Interested in working together to improve your fitness and well-being? You've come to the right place!</p>
 
-        <p>I started my training career in 2013 at Equinox, where I ultimately had the pleasure of serving as a Tier X Coach and Master Instructor for fellow trainers and coaches. In 2020, I founded Coaching With Cooksey to help my clients develop the skills and habits necessary to lead healthier lives on their own terms. My clients' goals range from losing fat and building muscle to injury rehabilitation and ultramarathon training. Personally, I enjoy a nice mix of heavy barbell and kettlebell work alongside a healthy dose of good ol' bodybuilding training.</p>
+          <p>I started my training career in 2013 at Equinox, where I ultimately had the pleasure of serving as a Tier X Coach and Master Instructor for fellow trainers and coaches. In 2020, I founded Coaching With Cooksey to help my clients develop the skills and habits necessary to lead healthier lives on their own terms. My clients' goals range from losing fat and building muscle to injury rehabilitation and ultramarathon training. Personally, I enjoy a nice mix of heavy barbell and kettlebell work alongside a healthy dose of good ol' bodybuilding training.</p>
 
-        <p>Currently, I can be found working out at <a href="https://www.ironboundperformance.com">Ironbound Performance Athletics</a>, where I also coach a couple classes each week. It's a fantastic, tight-knit community; the fact that I've gotten in much better shape since joining just feels like a bonus. Come visit us in Jersey City, NJ!</p>
-      </div>
+          <p>Currently, I can be found working out at <a href="https://www.ironboundperformance.com">Ironbound Performance Athletics</a>, where I also coach a couple classes each week. It's a fantastic, tight-knit community; the fact that I've gotten in much better shape since joining just feels like a bonus. Come visit us in Jersey City, NJ!</p>
+        </div>
+      </Container>
 
-      <hr/>
+
+      <hr />
 
       <Container id="coaching-services-section">
         <div id="coaching-services-header">
@@ -71,11 +77,11 @@ const Coaching = () => {
         </Container>
       </Container>
 
-      <hr/>
+      <hr />
 
       <Container id="coaching-philosophy-section">
         <h2 id="coaching-philosophy-header">Coaching Philosophy</h2>
-        
+
         <h3 className="coaching-philosophy-section-header">You're In the Driver's Seat</h3>
         <p>My aim is to simplify fitness for busy professionals through collaborative coaching relationships. I believe you understand yourself - what you like, the unique challenges you face, your priorities in life - better than I ever will.</p>
         <p>I don’t want to imitate the clichéd drill sergeant who just tells you what to do. Instead, I’d like to offer my education and experience alongside your input as we work together toward your goals. </p>
