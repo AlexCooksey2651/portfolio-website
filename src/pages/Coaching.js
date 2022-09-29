@@ -6,13 +6,13 @@ import alexKB from '../resources/images/AlexKB.png'
 const Coaching = () => {
   return (
     <Container id="coaching-page">
-      <div id="coaching-page__bio">
+      <Container id="coaching-page__bio">
         <img src={coachingLogo} alt="coaching with cooksey logo" id="cwc-logo" />
         <div id="coaching-page__bio-header">
           <h1>Coaching With Cooksey</h1>
           <h6>NSCA-CPT, StrongFirst Elite Instructor, Precision Nutrition Level 2 Certified Nutrition Coach</h6>
         </div>
-      </div>
+      </Container>
       <Container>
         <div id="coaching-page__bio-text">
           <p>Interested in working together to improve your fitness and well-being? You've come to the right place!</p>
@@ -34,46 +34,60 @@ const Coaching = () => {
 
         <Container id="coaching-service-cards">
           <Card id="online-programming-card" className="coaching-service-card">
-            <h3>Online Programming</h3>
-            <p>Would you like help putting together a training program that makes sense for your needs? I’ve got you covered. Fully individualized training programs based on your goals, equipment, and available time to train along with text/email check-ins and monthly video calls.</p>
-            <div className="coaching-service-pricing">
+            <div className="coaching-service-card__top">
+              <div className="coaching-service-card__header">
+                <h3>Online Programming</h3>
+              </div>
+              <p>Would you like help putting together a training program that makes sense for your needs? I’ve got you covered. Fully individualized training programs based on your goals, equipment, and available time to train along with text/email check-ins and monthly video calls.</p>
+            </div>
+
+            <Container className="coaching-service-pricing">
               <h5>Pricing:</h5>
               <ul>
                 <li>4-week program: $275</li>
                 <li>12-week program: $750 ($250/4 weeks)</li>
               </ul>
-            </div>
+            </Container>
           </Card>
 
           <Card id="online-training-card" className="coaching-service-card">
-            <h3>Online Training</h3>
-            <p>Live, one-on-one training from the comfort of your living room, hotel room, or anywhere else you bring your screen. Progressive, customized training based on your goals, available equipment, and space.</p>
-            <div className="coaching-service-pricing">
+            <div className="coaching-service-card__top">
+              <div className="coaching-service-card__header">
+                <h3>Online Training</h3>
+              </div>
+
+              <p>Live, one-on-one training from the comfort of your living room, hotel room, or anywhere else you bring your screen. Progressive, customized training based on your goals, available equipment, and space.</p>
+            </div>
+
+            <Container className="coaching-service-pricing">
               <h5>Pricing:</h5>
-              <p>Single Session: $125</p>
-              <p>Packages:</p>
+              <p>Single Session: $125<br />Packages:</p>
               <ul>
                 <li>4 Sessions: $440 ($110/session)</li>
                 <li>8 Sessions: $840 ($105/session)</li>
                 <li>12 Sessions: $1200 ($100/session)</li>
               </ul>
-            </div>
+            </Container>
           </Card>
 
           <Card id="inperson-training-card" className="coaching-service-card">
-            <h3>In-Person Training</h3>
-            <h6><em>*Available in Jersey City, NJ</em></h6>
-            <p>Looking for the personal touch? Maybe you just need the change of scenery or prefer the atmosphere of the gym. We can get together to perfect exercise technique, work around injuries or discomfort, or simply push a bit harder than you otherwise might.</p>
-            <div className="coaching-service-pricing">
+            <div className="coaching-service-card__top">
+              <div className="coaching-service-card__header">
+                <h3>In-Person Training</h3>
+                <h6><em>*Available in Jersey City, NJ</em></h6>
+              </div>
+              <p>Looking for the personal touch? Maybe you just need the change of scenery or prefer the atmosphere of the gym. We can get together to perfect exercise technique, work around injuries or discomfort, or simply push a bit harder than you otherwise might.</p>
+            </div>
+
+            <Container className="coaching-service-pricing">
               <h5>Pricing:</h5>
-              <p>Single Session: $140</p>
-              <p>Packages:</p>
+              <p>Single Session: $140<br />Packages:</p>
               <ul>
                 <li>4 Sessions: $520 ($130/session)</li>
                 <li>8 Sessions: $1000 ($125/session)</li>
                 <li>12 Sessions: $1440 ($120/session)</li>
               </ul>
-            </div>
+            </Container>
           </Card>
         </Container>
       </Container>
@@ -81,7 +95,7 @@ const Coaching = () => {
       <hr />
 
       <Container id="alexKB-image-container">
-        <img src={alexKB} alt="alex-turkish-get-up" id="alexKB-image"/>
+        <img src={alexKB} alt="alex-turkish-get-up" id="alexKB-image" />
       </Container>
 
       <Container id="coaching-philosophy-section">
