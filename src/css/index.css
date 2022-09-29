@@ -48,6 +48,7 @@ code {
 
 .main-footer {
   margin: auto;
+  margin-top: 100vh;
   display: flex;
 }
 
