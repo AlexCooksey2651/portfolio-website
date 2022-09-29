@@ -10,7 +10,7 @@ body {
 body {
   padding: 0;
   margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 code {
@@ -56,4 +56,10 @@ code {
   display: flex;
   text-align: center;
   padding: 10px 1px;
+}
+
+#bio, 
+#coaching,
+#portfolio-page {
+  background-color: white;
 }

@@ -1,9 +1,6 @@
-.about-page {
-    margin: 50px;
-}
-
 #about-page__header {
     text-align: left;
+    padding-top: 50px;
     margin-left: 12px;
     margin-bottom: 20px;
     font-size: 1.3rem;

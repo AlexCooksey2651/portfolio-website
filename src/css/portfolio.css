@@ -18,12 +18,15 @@
     margin: 10px 0;
     padding: 10px;
     font-size: 15px;
+    background-color: rgb(227, 241, 255) !important;
 }
 
 .project-card iframe {
+    margin-top: 20px;
     margin-bottom: 10px;
     height: 300px;
-    width: 80%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 1%
 }
