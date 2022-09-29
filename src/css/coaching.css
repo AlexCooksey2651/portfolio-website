@@ -21,7 +21,7 @@
 #coaching-page__bio-header {
     text-align: right;
     float: right;
-    margin-bottom: 0px;
+    margin: auto;
 }
 
 #coaching-page__bio-text {
@@ -57,7 +57,7 @@
 }
 
 #coaching-service-cards {
-    display: inline-flex;
+    display: flex;
     width: 100%;
 }
 
@@ -81,7 +81,7 @@
 
 .coaching-service-pricing {
     text-align: left;
-    height: 50%;
+    max-height: 50%;
 }
 
 .coaching-service-pricing h5 {
