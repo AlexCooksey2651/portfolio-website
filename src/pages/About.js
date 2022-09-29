@@ -7,7 +7,7 @@ import icelandImg from '../resources/images/iceland.jpg'
 
 const About = () => {
     return (
-        <div className="about-page">
+        <Container className="about-page">
             <h5 id="about-page__header">Hi, my name is Alex Cooksey. Welcome to my page!</h5>
             <Container id="about-page__bio">
                 <div id="about-page__bio-text">
@@ -37,7 +37,7 @@ const About = () => {
             <div id="fun-facts">
                 <h3 id="fun-facts__header">Fun Facts!</h3>
                 <Container id="fun-facts-pt1">
-                    <Container id="noodle-image">
+                    <Container id="noodle-image-div">
                         <img src={noodleImg} alt="chongqing-noodle-image" id="chongqing-noodle-img" />
                     </Container>
                     <ul id="fun-facts-list-pt1">
@@ -59,12 +59,12 @@ const About = () => {
                         <li>I still enjoy playing the Gen 1 & Gen 2 Pokemon video games. Pokemon Yellow was the first video game I owned, and I don't plan on getting rid of it anytime soon.</li>
                         <li>Among the countless things I have to be grateful for in this life, none matters more than the love of my life, Jenny Liu. Besides being a total boss, she's as kind and authentic a person as you're likely to meet in this world. We live in Jersey City, NJ with our cat, Piglet (aka Babe/Booboo), and dog, Sadie. It hardly seems possible, but I think they like eating even more than we do.</li>
                     </ul>
-                    <Container id="noodle-image">
+                    <Container id="iceland-image-div">
                         <img src={icelandImg} alt="iceland-image" id="iceland-img" />
                     </Container>
                 </Container>
             </div>
-        </div >
+        </Container >
     )
 }
 

@@ -1,5 +1,5 @@
 .about-page {
-    margin: 50px 100px;
+    margin: 50px;
 }
 
 #about-page__header {
@@ -17,6 +17,7 @@
 
 #profile-image-div {
     margin-left: 30px;
+    max-width: 15%;
 }
 
 #profile-image {
@@ -26,8 +27,10 @@
 }
 
 #fun-facts__header {
-    text-align: right;
-    margin-right: 300px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 750;
+    margin-bottom: 20px
 }
 
 #fun-facts-pt1, 
@@ -49,4 +52,12 @@
 
 #fun-facts-list-pt1 {
     width: 100%
+}
+
+#noodle-image-div {
+    max-width: 20%;
+}
+
+#iceland-image-div {
+    max-width: 15%;
 }

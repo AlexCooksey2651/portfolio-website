@@ -24,7 +24,6 @@ code {
   height: 3.5rem;
   background-color: darkslategrey;
   padding: 0 1.5rem;
-  /* display: inline-flexbox; */
 }
 
 .main-header__logo {
@@ -49,16 +48,12 @@ code {
 .main-footer {
   margin: auto;
   display: flex;
-
 }
 
 .main-footer a {
   margin: auto;
   height: 100%;
-  display: inline-flex;
+  display: flex;
   text-align: center;
-  padding: 10px 5px;
+  padding: 10px 1px;
 }
-
-
-
