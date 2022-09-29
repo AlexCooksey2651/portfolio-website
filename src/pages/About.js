@@ -20,7 +20,7 @@ const About = () => {
                         </p>
                     </div>
                     <Container id="profile-image-div">
-                        <img src={profilePic} alt="profile-picture" id="profile-image" />
+                        <img src={profilePic} alt="profile" id="profile-image" />
                     </Container>
                 </Container>
                 <Container id="about-page__bio-text-pt2">
@@ -39,7 +39,7 @@ const About = () => {
                     <h3 id="fun-facts__header">Fun Facts!</h3>
                     <Container id="fun-facts-pt1">
                         <Container id="noodle-image-div">
-                            <img src={noodleImg} alt="chongqing-noodle-image" id="chongqing-noodle-img" />
+                            <img src={noodleImg} alt="chongqing-noodle" id="chongqing-noodle-img" />
                         </Container>
                         <ul id="fun-facts-list-pt1">
                             <li>Born and raised near Denver, CO; East Coast transplant since 2008.</li>
@@ -61,7 +61,7 @@ const About = () => {
                             <li>Among the countless things I have to be grateful for in this life, none matters more than the love of my life, Jenny Liu. Besides being a total boss, she's as kind and authentic a person as you're likely to meet in this world. We live in Jersey City, NJ with our cat, Piglet (aka Babe/Booboo), and dog, Sadie. It hardly seems possible, but I think they like eating even more than we do.</li>
                         </ul>
                         <Container id="iceland-image-div">
-                            <img src={icelandImg} alt="iceland-image" id="iceland-img" />
+                            <img src={icelandImg} alt="iceland" id="iceland-img" />
                         </Container>
                     </Container>
                 </div>

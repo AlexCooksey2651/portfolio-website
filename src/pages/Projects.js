@@ -17,6 +17,7 @@ const Projects = () => {
                         <iframe
                             src={foreverHome_url}
                             allowFullscreen
+                            title='forever-home-video'
                         />
                         <Card.Body>
                             <Card.Title><em>Forever Home</em> - <a href="https://github.com/AlexCooksey2651/phase-5-final-project-forever-home">GitHub</a></Card.Title>
@@ -32,11 +33,8 @@ const Projects = () => {
 
                     <Card id="stronger-tomorrow-card" className="project-card">
                         <iframe src={strongerTomorrow_url}
-                            frameborder='0'
-                            allow='autoplay; encrypted-media'
                             allowfullscreen
-                            muted
-                            title='video'
+                            title='stronger-tomorrow-video'
                         />
                         <Card.Body>
                             <Card.Title><em>Stronger Tomorrow</em> - <a href="https://github.com/AlexCooksey2651/phase-4-project-stronger-tomorrow">GitHub</a></Card.Title>
@@ -52,12 +50,10 @@ const Projects = () => {
                     </Card>
 
                     <Card id="pokemon-academy-card" className="project-card">
-                        <iframe src={pokemonAcademy_url}
-                            frameborder='0'
-                            allow='autoplay; encrypted-media'
+                        <iframe 
+                            src={pokemonAcademy_url}
                             allowfullscreen
-                            muted
-                            title='video'
+                            title='pokemon-academy-video'
                         />
                         <Card.Body>
                             <Card.Title><em>Office of the Registrar: Pokemon Academy</em> - <a href="https://github.com/AlexCooksey2651/phase-3-sinatra-react-project">GitHub</a></Card.Title>
